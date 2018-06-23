@@ -105,7 +105,7 @@ A simple fix for this is to manually set the `PATH` (in my case I also use nvm t
 From the root directory of this project, set up and start the frontend with:
 
 * `cd web`
-* `npm install` (if `package.json` changed)
+* `npm install` (if `package.json` changed)     [use `yarn` incase npm install failed due to node-sass dependency]
 * `bower install` to install the styles
 * update config.settings.js file
   * if you are using the Node API: `copy config/settings.example.js config/settings.js`
